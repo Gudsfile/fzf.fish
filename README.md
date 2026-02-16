@@ -29,6 +29,15 @@ Use `fzf.fish` to interactively find and insert file paths, git commit hashes, a
   - if the current token is a directory with a trailing slash (e.g. `.config/<CURSOR>`), then that directory is searched instead
   - [ignores files that are also ignored by git](#fd-gi)
 
+### 🪾 Search Git Branches
+
+Search Git Branches example
+
+- **Fzf input:** the current repository's `git branch`
+- **Output:** name of selected branches
+- **Key binding and mnemonic:** <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>B</kbd> (`B` for branches)
+- **Preview window:** the git log of the branche
+
 ### 🪵 Search Git Log
 
 ![Search Git Log example](../assets/git_log.png)
@@ -118,14 +127,15 @@ fzf supports global default options via the [FZF_DEFAULT_OPTS and FZF_DEFAULT_OP
 
 Each command's fzf options can be configured via a variable:
 
-| Command           | Variable              |
-| ----------------- | --------------------- |
-| Search Directory  | `fzf_directory_opts`  |
-| Search Git Log    | `fzf_git_log_opts`    |
-| Search Git Status | `fzf_git_status_opts` |
-| Search History    | `fzf_history_opts`    |
-| Search Processes  | `fzf_processes_opts`  |
-| Search Variables  | `fzf_variables_opts`  |
+| Command             | Variable                |
+| ------------------- | ----------------------- |
+| Search Directory    | `fzf_directory_opts`    |
+| Search Git Log      | `fzf_git_log_opts`      |
+| Search Git Status   | `fzf_git_status_opts`   |
+| Search History      | `fzf_history_opts`      |
+| Search Processes    | `fzf_processes_opts`    |
+| Search Variables    | `fzf_variables_opts`    |
+| Search Git Branches | `fzf_git_branches_opts` |
 
 The value of each variable is appended last to fzf's options list. Because fzf uses the last instance of an option if it is specified multiple times, custom options take precedence. Custom fzf options unlock a variety of augmentations:
 
@@ -214,6 +224,7 @@ Find answers to these questions and more in the [project Wiki](https://github.co
 [fzf]: https://github.com/junegunn/fzf
 [latest release badge]: https://img.shields.io/github/v/release/patrickf1/fzf.fish
 [search directory]: #-search-directory
+[search git branches]: #-search-git-branches
 [search git log]: #-search-git-log
 [search git status]: #-search-git-status
 [search history]: #-search-history
