@@ -12,6 +12,9 @@ Augment your [Fish][] command line with mnemonic key bindings to efficiently fin
 
 https://user-images.githubusercontent.com/1967248/197308919-51d04602-2d5f-46aa-a96e-6cf1617e3067.mov
 
+> [!NOTE]
+> This is a fork of [PatrickF1/fzf.fish](https://github.com/PatrickF1/fzf.fish), created because contributions to the original are currently disabled ([issue #92](https://github.com/PatrickF1/fzf.fish/issues/92)). For now, the only difference from the original project is the addition of Git branch search.
+
 ## Search commands
 
 Use `fzf.fish` to interactively find and insert file paths, git commit hashes, and other entities into your command line. <kbd>Tab</kbd> to select multiple entries. If you trigger a search while your cursor is on a word, that word will be used to seed the fzf query and will be replaced by your selection. All searches include a preview of the entity hovered over to help you find what you're looking for.
