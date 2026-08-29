@@ -39,7 +39,7 @@ Use `fzf.fish` to interactively find and insert file paths, git commit hashes, a
 - **Fzf input:** the current repository's `git branch`
 - **Output:** name of selected branches
 - **Key binding and mnemonic:** <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>B</kbd> (`B` for branches)
-- **Preview window:** the git log of the branche
+- **Preview window:** the git log of the branch
 
 ### 🪵 Search Git Log
 
