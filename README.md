@@ -2,8 +2,8 @@
 
 # fzf.fish 🔍🐟
 
-[![latest release badge][]](https://github.com/patrickf1/fzf.fish/releases)
-[![build status badge][]](https://github.com/patrickf1/fzf.fish/actions)
+[![latest release badge][]](https://github.com/Gudsfile/fzf.fish/releases)
+[![build status badge][]](https://github.com/Gudsfile/fzf.fish/actions)
 [![awesome badge][]](https://git.io/awsm.fish)
 
 </div>
