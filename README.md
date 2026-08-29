@@ -34,7 +34,7 @@ Use `fzf.fish` to interactively find and insert file paths, git commit hashes, a
 
 ### 🪾 Search Git Branches
 
-Search Git Branches example
+![Search Git Branches example](../assets/git_branches.png)
 
 - **Fzf input:** the current repository's `git branch`
 - **Output:** name of selected branches
